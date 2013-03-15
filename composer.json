@@ -1,0 +1,30 @@
+{
+    "name": "linkorb/mollie-sms-php",
+    "description": "Mollie SMS PHP API Repository. Composer-ready.",
+    "homepage": "http://www.github.com/linkorb/transip-php",
+    "keywords": ["php", "api", "sms", "mollie"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+	    "role": "Packaging for composer"
+        },
+        {
+            "name": "Mollie B.V.",
+            "email": "support@transip.nl",
+	    "role": "Source files"
+        },
+        {
+            "name": "Laurens van Alphen",
+            "email": "info@keenondots.com",
+	    "role": "Thanks to"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+	    "classmap": ["src/"]
+    }
+}
