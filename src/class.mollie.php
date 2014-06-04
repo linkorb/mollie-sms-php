@@ -120,7 +120,7 @@
 		{
 			$recipients = implode(',', $this->recipients);
 
-			$xml = $this->_sendToHost('www.mollie.nl',
+			$xml = $this->_sendToHost('api.messagebird.com',
 			                          '/xml/sms/',
 			                          'gateway=' . urlencode($this->gateway) .
 			                            '&username=' . urlencode($this->username) .
@@ -145,7 +145,7 @@
 		{
 			$recipients = implode(',', $this->recipients);
 
-			$xml = $this->_sendToHost('www.mollie.nl',
+			$xml = $this->_sendToHost('api.messagebird.com',
 			                          '/xml/mms/',
 			                          'gateway=' . urlencode($this->gateway) .
 			                            '&username=' . urlencode($this->username) .
